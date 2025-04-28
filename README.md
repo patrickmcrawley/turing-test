@@ -30,4 +30,10 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+Next, create a .env file in the root directory of the project.
+Add the following:
+`OPENAI_API_KEY=sk-0000000000000000`
+
+Replace the key with your API key, obv. 
+
 After running, navigate to the local URL the console spits out and play.
