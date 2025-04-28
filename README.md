@@ -32,6 +32,7 @@ python3 main.py
 
 Next, create a .env file in the root directory of the project.
 Add the following:
+
 `OPENAI_API_KEY=sk-0000000000000000`
 
 Replace the key with your API key, obv. 
