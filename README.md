@@ -14,6 +14,8 @@ How it works:
 - The LLM answers the question.
 - Judge is given both responses, anonymized, and must guess which is the human.
 
+Play around with the system prompt a bit (located at sysprompt.txt). The main problem is getting the model out of that overly yappy, corporate RLHF-pleasing tone and talking like a regular human. Once you get the model and prompt combo right, it can actually get challenging depending on the prompt. There are a couple prompt ideas in prompt_ideas.txt. I just asked o3 for a few ideas, there's probably so many cooler places to go with this, but I just threw this together with Gemini in <10 mins so I can show someone the Turing Test.
+
 ## Installation
 
 Requirements:
